@@ -65,7 +65,7 @@ body {
 }
 .last-wing-container-box {
   display: grid;
-  grid-template-rows: 145.5px 145.5px;
+  grid-template-rows: repeat(2, 1);
   row-gap: 9px;
 }
 .last-wing-container-box-one {
@@ -77,6 +77,8 @@ body {
 
 .img-first-header-container {
   width: 100%;
+  height: 370px;
+  border-radius: 12px;
 }
 
 .header-writeup {
