@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(223, 215, 215);
+  background-color: rgb(248, 241, 241);
 }
 
 .header-container-first {
@@ -46,6 +46,7 @@ body {
 .container-one {
   width: 900px;
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 .container-one-header {
@@ -109,9 +110,12 @@ body {
   align-self: center;
   cursor: pointer;
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 100px;
   letter-spacing: 1px;
   border: none;
+}
+.btn-p {
+  border-radius: 100px;
 }
 
 .btn:hover {
@@ -123,10 +127,11 @@ body {
 }
 
 .latest-product-header {
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   font-size: 30px;
   text-align: center;
   font-weight: 600;
+  margin-top: 60px;
 }
 
 .latest-product-display {
@@ -148,7 +153,8 @@ body {
   /* border:1px solid rgb(123, 123, 131); */
   margin-bottom: 25px;
   background-color: #fff;
-  box-shadow: 0px 10px 10px 5px rgb(155, 148, 148);
+  box-shadow: 0px 20px 30px 0px rgb(155, 148, 148);
+  border-radius: 12px;
 }
 /* .latest-products:hover{
    
@@ -218,7 +224,7 @@ body {
 
   cursor: pointer;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 100px;
 }
 
 .top-selling-container {
