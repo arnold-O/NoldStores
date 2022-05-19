@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body {
   /* background-color: #F5F5F5; */
@@ -10,13 +9,151 @@ body {
   font-family: sans-serif;
 }
 
+/* navbar start */
+/* navbar start */
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.header-container-wrapper{
+  height: 55px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+}
+
+  
+  
+  
+ 
+
+
+
+.header-itemsContainer{
+  width: 1024px;
+  margin: 0 auto;
+  color: rgb(0, 5, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+ 
+}
+.header-name-title-nav{
+  font-size: 24px;
+  font-weight: 600;
+}
+.header-listItems-each{
+  font-size: 18px;
+  outline: orange;
+  
+}
+.achor-class-header{
+  text-decoration: none;
+  color: #282828;
+
+}
+.listItems-of-header{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-heade-listItems{
+  font-size: 18px;
+  color: rgb(209, 199, 199);
+}
+
+.header-logo{
+  font-size: 32px;
+}
+
+
+.headerBtn{
+  background-color: rgb(19, 199, 19);
+  padding: 5px;
+  border-radius: 100px;
+  width: 120px;
+  border: none;
+  outline: none;
+  
+}
+
+
+.search-nav-button{
+
+  background-color: orange;
+  outline: none;
+    border: none;
+    margin: 0px;
+    padding: 8px;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 45px;
+    height: 40px;
+    font-size: 22px;
+    
+
+
+}
+
+.search-input-headerBox{
+  
+  outline: none;
+  margin: 0px;
+  
+  border: 1px solid orange;
+  border-right:none ;
+  width: 250px;
+    height: 40px;
+    padding-left:5px ;
+    font-size: 18px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  
+}
+
+.flex-searchAndBtn{
+  display: flex;
+}
+
+.span-cart-number-wrapper{
+  position: relative;
+}
+
+.span-cart-number{
+  position: absolute;
+  color: orange;
+  top:-5px;
+  font-size: 20px;
+}
+
+
+
+/* navbar end */
+/* navbar end */
+
+
+
+
+
+.listItems-filter{
+  font-size: 14px;
+}
+
+
+
 .header-container-first {
   width: 1300px;
   margin: 0 auto;
   /* background-color: grey; */
   display: grid;
   grid-template-columns: 250px 660px 350px;
-  grid-template-rows: 280px ;
+  grid-template-rows: 280px;
   column-gap: 20px;
   margin-top: 35px;
 }
@@ -37,16 +174,14 @@ body {
 .bilboard-container {
   /* background-color: #fff; */
 
- width: 660px;
- height: 280px;
- 
+  width: 660px;
+  height: 280px;
 }
 
 .hearder-cont-image {
   width: 100%;
   border-radius: 8px;
-  height: inherit
-  
+  height: inherit;
 }
 
 .container-one {
@@ -82,7 +217,6 @@ body {
 .last-wing-container-box-two {
   background-color: #fff;
   border-radius: 12px;
-
 }
 
 .img-first-header-container {
@@ -145,9 +279,9 @@ body {
 
 .latest-product-display {
   /* background-color:grey; */
-   display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* justify-items:baseline ; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-items:baseline ; */
   /* display: flex;
   justify-content: space-between; */
   flex-wrap: wrap;
@@ -181,7 +315,6 @@ body {
 .latest-product-img {
   width: 100%;
   height: inherit;
-
 }
 
 .latest-product-price {
@@ -316,39 +449,28 @@ body {
   margin: 10px 10px;
 }
 
-
-
 /* footer part */
 
+.footer-header {
+  width: 1300px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: #282828;
 
-.footer-header{
-    width: 1300px;
-    height: 180px;
-    margin: 0 auto;
-    background-color: #282828;
-
-    /* margin-bottom: 55px; */
-
-
+  /* margin-bottom: 55px; */
 }
 
-
-.first-footer-container{
+.first-footer-container {
   max-width: 1024px;
-  margin:  0 auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  
 
   justify-content: space-between;
-
- 
-
- 
 }
 
-.dowload-cont-footer{
+.dowload-cont-footer {
   margin-top: 50px;
 
   color: #fff;
@@ -356,74 +478,63 @@ body {
   text-transform: uppercase;
 }
 
-
-.footer-title{
+.footer-title {
   margin-top: 50px;
- 
+
   font-size: 30px;
   color: #fff;
-
 }
 
-
-.middle-footer-con{
+.middle-footer-con {
   margin-top: 50px;
   justify-self: center;
 }
 
-
-.newsletter-cont{
+.newsletter-cont {
   margin: 12px 0px 12px;
-  color:#fff;
+  color: #fff;
   font-size: 14px;
 }
 
-.small-text-cont{
+.small-text-cont {
   color: #fff;
   font-size: 12px;
   margin: 12px 0px 12px;
 }
 
-
-.new-letter-title{
-  color:#F5F5F5
+.new-letter-title {
+  color: #f5f5f5;
 }
 
-
-
-.dowload-store-link{
+.dowload-store-link {
   width: 120px;
   height: 35px;
 }
 
-
-.download-link-image{
+.download-link-image {
   width: 100%;
   height: inherit;
 }
 
-.flex-both-link{
+.flex-both-link {
   display: flex;
   justify-content: space-between;
 }
 
-
-.footer-input-form{
- 
+.footer-input-form {
   height: 30px;
   display: flex;
   justify-content: space-between;
 }
 
-.input-newsletter{
+.input-newsletter {
   width: 300px;
   height: inherit;
   border: none;
   padding: 5px;
 }
 
-
-.send-newsletter-btn{
+.send-newsletter-btn {
   border: 1px solid #fff;
   width: 50px;
   background-color: #282828;
@@ -431,41 +542,37 @@ body {
   border-radius: 5px;
 }
 
-.hidden{
-  display:none
+.hidden {
+  display: none;
 }
-
 
 /* foooter 2222 */
 
-
-.footer-two-container{
- background-color: #383030;;
-width: 1300px;
+.footer-two-container {
+  background-color: #383030;
+  width: 1300px;
   height: 200px;
   margin: 0 auto;
 }
 
-/* Faq section */
+/* start of Faq section */
 
-.faq-header-title{
+.faq-header-title {
   text-align: center;
   margin-top: 30px;
   text-decoration: underline;
 }
 
-.faq-header-first-container{
- 
-    width: 1300px;
-    margin: 0 auto;
-    /* background-color: white; */
-    margin-top: 30px;
-    overflow: hidden;
-
+.faq-header-first-container {
+  width: 1300px;
+  margin: 0 auto;
+  /* background-color: white; */
+  margin-top: 30px;
+  overflow: hidden;
 }
 
-.faq-container-box{
-  width:700px;
+.faq-container-box {
+  width: 700px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -473,20 +580,17 @@ width: 1300px;
   background-color: #fff;
   padding: 20px;
 }
-.main-box-border-above{
+.main-box-border-above {
   border-top: 1px solid orange;
 }
 
-
-.fag-cont-top-heading{
+.fag-cont-top-heading {
   font-size: 16px;
   font-weight: 600;
   text-align: center;
-  
-
 }
 
-.the-answer-container-back-back{
+.the-answer-container-back-back {
   margin-top: 15px;
   margin-bottom: 15px;
   font-weight: 600;
@@ -494,15 +598,108 @@ width: 1300px;
   letter-spacing: 1.5;
 }
 
-li{
+li {
   font-size: 16px;
   line-height: 1.5;
 }
 
-.inner-div-questions{
+.inner-div-questions {
   width: 500px;
   margin: 0 auto;
 }
 
-
 /* Faq section ends */
+
+/* flash sales component */
+
+.flash-first-container {
+  width: 1300px;
+
+  margin: 0 auto;
+  background-color: #e61601;
+  color: #fff;
+  display: grid;
+  /* grid-template-columns: 420px 420px 420px; */
+  grid-template-columns: 420px 420px 420px;
+  grid-template-rows: 48px;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+
+  font-size: 1.28rem;
+
+  margin-top: 70px;
+}
+.flash-sales-container {
+  display: flex;
+
+  gap: 10px;
+
+  justify-self: center;
+}
+
+.time-fixing-javascript {
+  justify-self: center;
+}
+
+.flash-sales-see-more {
+  justify-self: flex-end;
+  margin-right: 20px;
+}
+.flash-all-goods-flash-sales {
+  width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.801);
+  margin-bottom: 150px;
+}
+
+.flash-top-items-cont {
+  position: relative;
+  width: 250px;
+  /* height: 300px; */
+  background-color: #fff;
+  margin-top: 8px;
+  /* margin-bottom: 20px; */
+}
+
+.flash-top-selling-img {
+  width: 250px;
+  height: 220px;
+}
+
+.flash-top-selling-image {
+  width: 100%;
+  height: 100%;
+}
+.flash-old-top-price {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.flash-new-price-top {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.flash-discount-price-top {
+  position: absolute;
+  background-color: pink;
+  color: rgb(233, 15, 88);
+  padding: 4px;
+  border-radius: 6px;
+  font-size: 14px;
+  top: 10px;
+  right: 10px;
+}
+
+.flash-container-checks {
+  width: 270px;
+  margin: 10px 10px;
+}
+
+/* flash sales component */
