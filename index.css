@@ -11,141 +11,111 @@ body {
 
 /* navbar start */
 /* navbar start */
-*{
+* {
   margin: 0px;
   padding: 0px;
-
 }
 
-.header-container-wrapper{
+.header-container-wrapper {
   height: 55px;
   background-color: #fff;
   display: flex;
   align-items: center;
-
 }
 
-  
-  
-  
- 
-
-
-
-.header-itemsContainer{
+.header-itemsContainer {
   width: 1024px;
   margin: 0 auto;
   color: rgb(0, 5, 0);
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
- 
 }
-.header-name-title-nav{
+.header-name-title-nav {
   font-size: 24px;
   font-weight: 600;
 }
-.header-listItems-each{
+.header-listItems-each {
   font-size: 18px;
   outline: orange;
-  
 }
-.achor-class-header{
+.achor-class-header {
   text-decoration: none;
   color: #282828;
-
 }
-.listItems-of-header{
+.listItems-of-header {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.nav-heade-listItems{
+.nav-heade-listItems {
   font-size: 18px;
   color: rgb(209, 199, 199);
 }
 
-.header-logo{
+.header-logo {
   font-size: 32px;
 }
 
-
-.headerBtn{
+.headerBtn {
   background-color: rgb(19, 199, 19);
   padding: 5px;
   border-radius: 100px;
   width: 120px;
   border: none;
   outline: none;
-  
 }
 
-
-.search-nav-button{
-
+.search-nav-button {
   background-color: orange;
   outline: none;
-    border: none;
-    margin: 0px;
-    padding: 8px;
-    color: #fff;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    width: 45px;
-    height: 40px;
-    font-size: 22px;
-    
-
-
+  border: none;
+  margin: 0px;
+  padding: 8px;
+  color: #fff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 45px;
+  height: 40px;
+  font-size: 22px;
 }
 
-.search-input-headerBox{
-  
+.search-input-headerBox {
   outline: none;
   margin: 0px;
-  
+
   border: 1px solid orange;
-  border-right:none ;
+  border-right: none;
   width: 250px;
-    height: 40px;
-    padding-left:5px ;
-    font-size: 18px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-  
+  height: 40px;
+  padding-left: 5px;
+  font-size: 18px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 
-.flex-searchAndBtn{
+.flex-searchAndBtn {
   display: flex;
 }
 
-.span-cart-number-wrapper{
+.span-cart-number-wrapper {
   position: relative;
 }
 
-.span-cart-number{
+.span-cart-number {
   position: absolute;
   color: orange;
-  top:-5px;
+  top: -5px;
   font-size: 20px;
 }
 
-
-
 /* navbar end */
 /* navbar end */
 
-
-
-
-
-.listItems-filter{
+.listItems-filter {
   font-size: 14px;
 }
-
-
 
 .header-container-first {
   width: 1300px;
@@ -553,7 +523,46 @@ body {
   width: 1300px;
   height: 200px;
   margin: 0 auto;
+  display: flex;
+
+  justify-content: space-around;
 }
+.second-footer-itemContainer {
+  margin-top: 40px;
+}
+.second-footer-headingItem {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.flex-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.headingItem-help-section {
+  color: rgb(196, 188, 188);
+  display: grid;
+  gap: 8px;
+}
+
+.second-footer-aboutUs {
+  color: rgb(206, 197, 197);
+}
+
+.second-footer-payment-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+/* end of second footer  */
 
 /* start of Faq section */
 
@@ -610,7 +619,7 @@ li {
 
 /* Faq section ends */
 
-/* flash sales component */
+/* flash sales component start */
 
 .flash-first-container {
   width: 1300px;
@@ -702,4 +711,14 @@ li {
   margin: 10px 10px;
 }
 
-/* flash sales component */
+/* flash sales component ends*/
+
+/* login section start */
+/* login section start */
+
+.login-header-title {
+  text-align: center;
+}
+
+/* login section end */
+/* login section end */

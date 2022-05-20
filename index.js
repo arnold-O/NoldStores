@@ -40,7 +40,7 @@ for(let i = 0; i<selector.length; i++)
 const timerDown = document.querySelector('.time-fixing-javascript')
 function countdownTimeStart(){
 
-   const ReferenceDownTime = new Date("May 20, 2022 06:00:00").getTime();
+   const ReferenceDownTime = new Date("May 21, 2022 06:00:00").getTime();
     
     // Update the count down every 1 second
     const x = setInterval(function() {
