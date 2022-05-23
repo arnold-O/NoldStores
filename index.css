@@ -419,7 +419,18 @@ body {
   margin: 10px 10px;
 }
 
-/* footer part */
+/* footer part  start*/
+/* footer part  start*/
+
+.contact-us-page{
+  color:#fff;
+  margin-top: 12px;
+  text-decoration: none;
+}
+.contact-anchor-tag{
+  color: #fff;
+  text-decoration: none;
+}
 
 .footer-header {
   width: 1300px;
@@ -524,6 +535,7 @@ body {
   height: 200px;
   margin: 0 auto;
   display: flex;
+  margin-bottom: 50px;
 
   justify-content: space-around;
 }
