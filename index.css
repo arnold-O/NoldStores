@@ -722,3 +722,78 @@ li {
 
 /* login section end */
 /* login section end */
+
+
+
+/* Carousel section */
+/* Carousel section */
+.carousel-section-container{
+  background-color: rgb(42, 122, 42);
+  width: 800px;
+  margin:  100px auto;
+ 
+  border-radius: 8px;
+  padding: 32px;
+  padding-left: 86px;
+  display: flex;
+  /* align-items: center; */
+  gap: 86px;
+  position: relative;
+}
+
+.image-review-carousel{
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0,0,0, .25);
+
+
+}
+.review-text-carousel{
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 32px;
+  color: #fff;
+
+}
+.carousel-author-name{
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: rgb(216, 211, 205);
+
+}
+.carousel-author-job{
+  font-size: 12px;
+  color: rgb(216, 211, 205);
+
+}
+
+.btn-carousel{
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.btnOne{
+  left:0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 12px 24px rgba(0,0,0, .25);
+}
+
+.btnTwo{
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  box-shadow: 0px 12px 24px rgba(0,0,0, .25);
+}
+
+
+/* Carousel section */
+/* Carousel section */
