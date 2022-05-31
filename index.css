@@ -115,6 +115,8 @@ body {
 
 .listItems-filter {
   font-size: 14px;
+  text-decoration:none;
+  color: rgba(0, 0, 20, 1);
 }
 
 .header-container-first {
@@ -807,6 +809,25 @@ li {
   color: #fff;
 }
 
+.carouselDot-scroll{
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  bottom: 0;
+ left: 50%;
+
+ transform: translate(-50%, 40px);
+ color: #fff; 
+}
+.carouselDot-scroll{
+  color: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #087f5b;
+  cursor: pointer;
+}
+
 /* Carousel section */
 /* Carousel section */
 
@@ -942,3 +963,80 @@ li {
 }
 
 /* <!-- login Form part --> */
+
+
+
+
+
+/* fashion section */
+/* fashion section */
+
+.change-body-pickers{
+  background-color:  #f2f2f2;
+}
+/* fashion section */
+/* fashion section */
+
+
+/* sub navbar section */
+/* sub navbar section */
+
+.sub-navBar-Container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-around;
+  background-color: #f9f9f3;
+  height: 35px;
+  align-items: center;
+
+  text-align: center;
+
+
+}
+.anchor-linksClass{
+  text-decoration: none;
+  color: rgba(255, 166, 0, 0.863);
+  align-self: center;
+}
+.eachFilter-link-container{
+  
+  /* padding: 12px; */
+}
+.eachFilter-link-container:hover{
+  border: 1px solid orange;
+  padding: 8px;
+}
+/* sub navbar section */
+/* sub navbar section */
+
+
+
+
+
+
+
+
+/* phones and tablet section */
+/* phones and tablet section */
+
+.first-divider-columnContainer{
+  width: 1300px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 300px 950px ;
+  /* grid-template-rows: 280px; */
+  column-gap: 50px;
+  margin-top: 60px;
+
+ 
+
+}
+.first-columnPhone-Container{
+  background-color: grey;
+}
+.second-columnPhone-Container{
+  background-color: white;
+}
+/* phones and tablet section */
+/* phones and tablet section */
