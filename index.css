@@ -16,6 +16,22 @@ body {
   padding: 0px;
 }
 
+/* go to Top BTN */
+.gotoTop-BtnContainer{
+ text-align: end;
+
+  margin: 12px 10px 25px 0px;
+}
+.goToTop-Btn{
+  padding: 8px;
+  background-color: rgb(19, 199, 19);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+}
+/* go to Top BTN */
+
 .header-container-wrapper {
   height: 55px;
   background-color: #fff;
@@ -1040,3 +1056,49 @@ li {
 }
 /* phones and tablet section */
 /* phones and tablet section */
+
+
+
+/* Electronics Page  begins*/
+
+.dividerContainer-LeftRight{
+
+  background-color: #fff;
+  
+}
+.dividerContainer-InnerCont{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px 950px;
+  gap: 50px;
+}
+.priceFilterContainer{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.priceElectronic-Cont{
+  font-size: 14px;
+}
+.topHeadingContainer-title{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.topHeadingContainer{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+.productSectionCont{
+  margin-top: 40px;
+}
+.productSectionCont-left{
+  align-self: flex-start; 
+}
+/* Electronics Page ends */

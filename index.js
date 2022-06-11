@@ -62,8 +62,8 @@ function countdownTimeStart() {
     }
   }, 1000);
 }
-
-countdownTimeStart();
+//  REMEMBER YOU HAVNT CALLED IN THE FUNCTION
+// countdownTimeStart();
 
 // let time = 1600
 
@@ -75,3 +75,37 @@ countdownTimeStart();
 //     time--
 // },1000)
 // flash section js logic
+
+
+
+const scrollT = document.querySelector('.goToTop-Btn')
+const sectionTo = document.querySelector('.scrollClass')
+
+
+
+scrollT.addEventListener('click', function(){
+  
+  sectionTo.scrollIntoView({
+    behavior:'smooth'
+  })
+
+
+
+
+}
+  )
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
