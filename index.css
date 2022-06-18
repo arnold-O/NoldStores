@@ -34,9 +34,14 @@ body {
 
 .header-container-wrapper {
   height: 55px;
+  width: 100%;
   background-color: #fff;
   display: flex;
   align-items: center;
+  position: sticky;
+  margin-top: 0px;
+  background-color: rgba(255, 255, 255, 1);
+
 }
 
 .header-itemsContainer {
@@ -1070,7 +1075,7 @@ li {
   max-width: 1300px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 200px 950px;
+  grid-template-columns: 150px 1100px;
   gap: 50px;
 }
 .priceFilterContainer{
@@ -1101,4 +1106,127 @@ li {
 .productSectionCont-left{
   align-self: flex-start; 
 }
+
+.productSectionCont-right{
+  /* background-color: #df1591; */
+
+}
+.electronicProduct-cont{
+  height: 300px;
+  margin-bottom: 15px;
+
+}
+.EachproductElectronic{
+  display: flex;
+  flex-wrap: wrap;
+  gap:6.5px
+  
+}
+.electronicProduct-cont{
+  width: 270px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.05);
+
+}
+.priceTopDiscount{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paragWriteUp{
+  width: 60px;
+  height: 40px;
+  background-color: pink;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favouriteCont-electronic{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.detailsPart-electronics{
+  max-width: 250px;
+  max-height: 200px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.imageElectronicPRoduct{
+  width: 100%;
+  margin: 0px;
+
+
+}
+.imageElectronicPArt{
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+.productTitle-electronic{
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.priceCont-electronic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.hrClass-electronic{
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.newPRice-electronic{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.oldPRice-electronic{
+  font-size: 14px;
+  text-decoration: line-through;
+
+}
+.soldBy-electronic{
+  font-size: 10px;
+  margin-top: 6px;
+}
+.reviewsCont-electronics{
+  margin-top: 10px;
+
+}
+
+.fa-regular{
+  color: rgb(160, 150, 150);
+}
+
+.buttoncont-electronics{
+  
+  border: 1px solid orange;
+  text-align: center;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.btnCont-electronic{
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  background-color: #fff;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+
+}
+
+
 /* Electronics Page ends */

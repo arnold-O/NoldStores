@@ -89,9 +89,6 @@ scrollT.addEventListener('click', function(){
     behavior:'smooth'
   })
 
-
-
-
 }
   )
 
