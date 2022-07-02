@@ -228,6 +228,7 @@ body {
   line-height: 1.1;
   margin-bottom: 25px;
   font-family: sans-serif;
+  color: #fff;
 }
 
 .header-explana {
@@ -235,6 +236,7 @@ body {
   line-height: 1.5;
   letter-spacing: -1px;
   font-family: sans-serif;
+  color: rgb(36, 34, 34);
 }
 
 .btn {
@@ -1018,8 +1020,10 @@ li {
   text-decoration: none;
   color: rgba(255, 166, 0, 0.863);
   align-self: center;
+  cursor: pointer;
 }
 .eachFilter-link-container{
+  /* cursor: pointer; */
   
   /* padding: 12px; */
 }
@@ -1225,6 +1229,18 @@ li {
   width: 100%;
   padding: 8px;
   cursor: pointer;
+  color: orange;
+
+}
+.btnCont-electronic:hover{
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  background-color: orange;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
 
 }
 
